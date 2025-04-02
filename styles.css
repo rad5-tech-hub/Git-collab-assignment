@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #db0a0a;
 }
 
 header {
@@ -78,4 +78,7 @@ main {
 
 .member img {
     border-radius: 50%;
+}
+background{
+    color: blueviolet;
 }
