@@ -5,8 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Team Collaboration Dashboard</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
 </head>
-<body>
+<body style="background-color: rgb(211, 210, 179);">
 
     <header>
         <div class="logo">TeamCollab</div>
@@ -22,17 +23,17 @@
     </header>
 
     <main>
-        <section class="dashboard">
+        <section class="dashboard bg-success">
             <h1>Project Dashboard</h1>
             <p>Welcome to the team collaboration dashboard. Manage tasks and track progress here.</p>
         </section>
 
-        <section class="tasks">
+        <section class="tasks bg-success">
             <h2>Task List</h2>
-            <ul>
-                <li><input type="checkbox"> Design homepage layout</li>
-                <li><input type="checkbox"> Implement authentication system</li>
-                <li><input type="checkbox"> Test mobile responsiveness</li>
+            <ul style="background-color: rgb(125, 187, 202); color: white;">
+                <li style="background-color: green; color: white;"><input type="checkbox"> Design homepage layout</li>
+                <li style="background-color: green; color: white;"><input type="checkbox"> Implement authentication system</li>
+                <li style="background-color: green; color: white;"><input type="checkbox"> Test mobile responsiveness</li>
             </ul>
         </section>
 
@@ -40,12 +41,12 @@
             <h2>Meet the Team</h2>
             <div class="team-members">
                 <div class="member">
-                    <img src="https://via.placeholder.com/100" alt="User">
+                    <img src="images/image1.jpg" alt="User">
                     <h3>Chibuike</h3>
                     <p>Frontend Developer</p>
                 </div>
                 <div class="member">
-                    <img src="https://via.placeholder.com/100" alt="User">
+                    <img src="images/image3.jpg" alt="User">
                     <h3>Carita</h3>
                     <p>Backend Developer</p>
                 </div>
@@ -53,5 +54,9 @@
         </section>
     </main>
 
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
