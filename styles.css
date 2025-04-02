@@ -66,6 +66,8 @@ main {
 .team-members {
     display: flex;
     gap: 20px;
+    padding:2px;
+
 }
 
 .member {
