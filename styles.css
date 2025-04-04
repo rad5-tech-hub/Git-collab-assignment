@@ -84,3 +84,21 @@ main {
 background{
     color: blueviolet;
 }
+
+#container {
+    display: grid;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+#form {
+    border: 5px solid black;
+    border-radius: 20px;
+    height: 50vh;
+    margin-bottom: 10%;
+    background-color: beige;
+    padding: 5%;
+    
+}
