@@ -1,11 +1,15 @@
 body {
-    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #db0a0a;
+    background-color: #0a80db;
+}
+.nav-link:hover{
+    border: 2px solid blueviolet !important;
 }
 
-header {
+
+
+/* header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -32,29 +36,39 @@ nav ul li {
 nav ul li a {
     color: white;
     text-decoration: line-through;
-}
+} */
 
 main {
     max-width: 900px;
     margin: 20px auto;
-    padding: 20px;
+    padding: 10px;
     background: white;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .dashboard {
+    background-color: rgb(100, 112, 202);
+    padding: 10px;
     text-align: center;
     margin-bottom: 20px;
+    color: rgb(167, 34, 102);
+}
+.dashboard h1 {
+    margin: 0;
+    font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .tasks ul {
+
+    background-color: rgb(34, 38, 70);
     list-style: none;
     padding: 0;
 }
 
 .tasks ul li {
-    background: #ddd;
+    background: rgb(64, 79, 92);
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
@@ -81,6 +95,5 @@ main {
 .member img {
     border-radius: 50%;
 }
-background{
-    color: blueviolet;
-}
+
+
