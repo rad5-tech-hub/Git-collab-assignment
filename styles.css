@@ -2,7 +2,8 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #db0a0a;
+    background-color: #f0f0f0;
+    background: url(https://images.unsplash.com/photo-1506748686214-e9df14d4d9d0?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwzNjUyOXwwfDF8c2VhcmNofDJ8fGZvbGxvd3xlbnwwfHx8fDE2OTI5NTY1NzE&ixlib=rb-4.0.3&q=80&w=1080) no-repeat center center fixed;
 }
 
 header {
@@ -31,14 +32,14 @@ nav ul li {
 
 nav ul li a {
     color: white;
-    text-decoration: line-through;
+    text-decoration: none;
 }
 
 main {
     max-width: 900px;
     margin: 20px auto;
     padding: 20px;
-    background: white;
+    background: lightgreen;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
@@ -54,25 +55,24 @@ main {
 }
 
 .tasks ul li {
-    background: #ddd;
+    background: lightslategray;
     margin: 5px 0;
     padding: 10px;
     border-radius: 5px;
     display: flex;
     align-items: center;
     gap: 10px;
+    
 }
 
 .team-members {
     display: flex;
     gap: 20px;
-    padding:2px;
-
 }
 
 .member {
     text-align: center;
-    background: #ebe4e4;
+    background: blueviolet;
     padding: 15px;
     border-radius: 10px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
@@ -81,6 +81,7 @@ main {
 .member img {
     border-radius: 50%;
 }
-background{
-    color: blueviolet;
+h1 {
+    color: blue;
+    text-align: center;
 }
